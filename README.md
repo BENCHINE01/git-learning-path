@@ -21,6 +21,51 @@ git clone git@github.com:BENCHINE01/git-learning-path.git
 cd git-learning-path
 ```
 
+### via GitHub CLI 
+First, install GitHub CLI from the official website `https://cli.github.com/` <br> 
+Once installed, login to your GitHub Account using the following command...
+```sh
+gh auth login
+```
+Then follow the steps
+```sh
+? Where do you use GitHub? GitHub.com
+? What is your preferred protocol for Git operations on this host? HTTPS
+? Authenticate Git with your GitHub credentials? Yes
+? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: D382-ACF3
+Press Enter to open https://github.com/login/device in your browser... 
+✓ Authentication complete.
+- gh config set -h github.com git_protocol https
+✓ Configured git protocol
+! Authentication credentials saved in plain text
+✓ Logged in as BENCHINE01
+```
+
+Now you can clone your repo locally using the command...
+```sh
+gh repo clone BENCHINE01/git-learning-path
+```
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Last Name</th>
+            <th>First Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>BENCHINE</td>
+            <td>Abdelilah</td>
+            <td>benchine@gmail.com</td>
+            <td>0614422367</td>
+        </tr>
+    </thead>
+</table>
+
 ## Configuration
 When Git is first installed in a machine, the user is demanded to configure the email and username to his github account...
 
