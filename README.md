@@ -8,12 +8,12 @@ cd git-learning-path
 ```
 
 ### via SSH
-First, we generate the SSH key...
+First, generate the SSH key using `keygen` command and follow the steps...
 ```sh
 $ ssh-keygen -o
 $ cat ~/.ssh/id_rsa.pub
 ```
-Then create a new SSH key in https://github.com/settings/keys and copy the key shown in terminal. <br>
+Then create a new SSH key in https://github.com/settings/keys and paste the key from terminal. <br>
 Once set up, you can clone the project locally via SSH 
 
 ```sh
