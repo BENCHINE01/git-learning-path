@@ -47,24 +47,6 @@ Now you can clone your repo locally using the command...
 ```sh
 gh repo clone BENCHINE01/git-learning-path
 ```
-<table>
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Last Name</th>
-            <th>First Name</th>
-            <th>Email</th>
-            <th>Phone Number</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>BENCHINE</td>
-            <td>Abdelilah</td>
-            <td>benchine@gmail.com</td>
-            <td>0614422367</td>
-        </tr>
-    </thead>
-</table>
 
 ## Configuration
 When Git is first installed in a machine, the user is demanded to configure the email and username to his github account...
@@ -106,6 +88,24 @@ When changes are staged, they are ready to be commited.
 To do so, use the `commit` command with `-m ` flag to add a commit message...
 ```sh
 git commit -m "Added file X to the project"
+```
+
+## Branches
+List all branches
+```sh
+git branch 
+```
+List all remote and local branches
+```sh 
+git branch -a
+```
+Create a new branch
+```sh 
+git branch branch-name
+```
+Checkout to the branch
+```sh 
+git checkout branch-name
 ```
 
 ## Log
